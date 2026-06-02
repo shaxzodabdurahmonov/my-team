@@ -1,0 +1,17 @@
+@import url("./base/normalize.css");
+@import url("./base/variables.css");
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/footer.css");
+@import url("./components/navbar.css");
+@import url("./pages/about.css");
+@import url("./pages/contact.css");
+@import url("./pages/home.css");
+/* livvic-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/livvic-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

@@ -1,0 +1,111 @@
+:root {
+  /* =========================
+     COLORS
+  ========================= */
+
+  /* Primary Colors */
+  --color-midnight-green: #014E56;
+  --color-light-coral: #F67E7E;
+  --color-white: #FFFFFF;
+
+  /* Secondary Colors */
+  --color-rapture-blue: #79C8C7;
+  --color-police-blue: #2C6269;
+  --color-deep-jungle-green: #004047;
+  --color-sacramento-state-green: #012F34;
+  --color-dark-green: #002529;
+
+  /* Backgrounds */
+  --bg-primary: var(--color-midnight-green);
+  --bg-secondary: var(--color-sacramento-state-green);
+  --bg-dark: var(--color-dark-green);
+  --bg-light: var(--color-white);
+
+  /* Text Colors */
+  --text-primary: var(--color-dark-green);
+  --text-secondary: var(--color-police-blue);
+  --text-light: var(--color-white);
+  --text-accent: var(--color-light-coral);
+
+  /* Border Colors */
+  --border-primary: var(--color-white);
+  --border-secondary: var(--color-police-blue);
+  --border-disabled: #C4C4C4;
+
+  /* =========================
+     TYPOGRAPHY
+  ========================= */
+
+  --font-primary: "Livvic", sans-serif;
+
+  /* Headings */
+  --h1-large-size: 100px;
+  --h1-large-line-height: 100px;
+  --h1-large-weight: 700;
+
+  --h1-small-size: 64px;
+  --h1-small-line-height: 56px;
+  --h1-small-weight: 700;
+
+  --h2-size: 48px;
+  --h2-line-height: 48px;
+  --h2-weight: 700;
+
+  --h3-size: 18px;
+  --h3-line-height: 28px;
+  --h3-weight: 700;
+
+  /* Body */
+  --body1-size: 18px;
+  --body1-line-height: 28px;
+  --body1-weight: 600;
+
+  --body2-size: 15px;
+  --body2-line-height: 25px;
+  --body2-weight: 600;
+
+  /* =========================
+     BUTTONS
+  ========================= */
+
+  --btn-radius: 999px;
+
+  /* Primary Button */
+  --btn-primary-bg: var(--color-white);
+  --btn-primary-text: var(--color-sacramento-state-green);
+  --btn-primary-hover-bg: var(--color-light-coral);
+  --btn-primary-hover-text: var(--color-dark-green);
+
+  /* Secondary Button */
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: var(--color-white);
+  --btn-secondary-border: var(--color-white);
+
+  --btn-secondary-hover-bg: var(--color-white);
+  --btn-secondary-hover-text: var(--color-dark-green);
+
+  /* Disabled */
+  --btn-disabled-bg: transparent;
+  --btn-disabled-text: #8a8a8a;
+  --btn-disabled-border: #c4c4c4;
+
+  /* =========================
+     SPACING
+  ========================= */
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+
+  /* =========================
+     TRANSITIONS
+  ========================= */
+
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
