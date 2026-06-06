@@ -1,0 +1,126 @@
+.site__header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-midnight-green);
+  width: 100%;
+}
+.site__header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site__header-img {
+  width: 160px;
+  margin-block: 73px;
+}
+.site__header-navbar {
+  max-width: 900px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  /* gap: 50px; */
+  justify-content: space-between;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar-list-item {
+  font-size: var(--h3-size);
+  line-height: var(--body1-line-height);
+  font-weight: var(--body1-weight);
+}
+.navbar-list-link {
+  color: var(--color-white);
+}
+.menu,
+#menu {
+  display: none;
+}
+.fa-solid {
+  color: var(--color-white);
+  font-size: var(--h3-size);
+}
+.fa-xmark {
+  position: absolute;
+  right: 0;
+  text-align: end;
+}
+.navbar-btn {
+  padding-block: 11px;
+  padding-inline: 33px;
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: var(--h3-size);
+  line-height: var(--body1-line-height);
+  font-weight: var(--body1-weight);
+  border: 2px solid var(--color-white);
+  border-radius: 24px;
+}
+.navbar-link {
+  /* margin-right: auto; */
+}
+.navbar-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 320px) {
+  .site__header-img {
+    width: 128px;
+    margin-block: 48px;
+  }
+  .navbar-wrapper {
+    flex-direction: column;
+    position: absolute;
+    max-width: 260px;
+    height: 70vh;
+    display: none;
+    padding-inline: 20px;
+    padding-top: 56px;
+    text-align: start;
+    top: 0;
+    right: -260px;
+    z-index: 10;
+    background-color: var(--color-deep-jungle-green);
+    transition: all var(--transition-normal);
+  }
+  .navbar-list {
+    flex-direction: column;
+    margin-top: 39px;
+  }
+  .navbar-list-item {
+    text-align: start;
+  }
+  .navbar-btn {
+    margin-top: 36px;
+  }
+
+  .navbar-img {
+    display: block;
+    width: 70px;
+  }
+  .menu {
+    display: block;
+  }
+  #menu:checked ~ .navbar-wrapper {
+    display: block;
+    right: 0;
+  }
+}
+/* @media screen and (min-width: 640px) {
+  #menu {
+    display: none;
+  }
+} */

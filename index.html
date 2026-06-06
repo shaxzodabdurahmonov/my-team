@@ -1,12 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My team</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="site__header">
+      <div class="container">
+        <div class="site__header-wrapper">
+          <img
+            src="./assets/images/myteam-logo.png"
+            alt=""
+            class="site__header-img"
+          />
+          <div class="site__header-navbar">
+            <input type="checkbox" id="menu" />
+            <label for="menu" class="menu"
+              ><i class="fa-solid fa-bars"></i
+            ></label>
+            <div class="navbar-wrapper">
+              <label for="menu" class="menu"
+                ><i class="fa-solid fa-xmark"></i
+              ></label>
+
+              <ul class="navbar-list">
+                <li class="navbar-list-item">
+                  <a href="./index.html" class="navbar-list-link">home</a>
+                </li>
+                <li class="navbar-list-item">
+                  <a href="./about.html" class="navbar-list-link">about</a>
+                </li>
+              </ul>
+              <a href="./contact.html" class="navbar-btn-link navbar-link">
+                <button class="navbar-btn" type="button">contact us</button>
+              </a>
+              <img
+                src="./assets/images/background right 2.png"
+                alt="navbar-img"
+                class="navbar-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="site__main">
+      <section class="section-hero"><div class="container"></div></section>
+    </main>
+  </body>
 </html>
